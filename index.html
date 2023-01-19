@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <title>Rishikesh's Portofolio - from Skretch</title>
+</head>
+
+<body>
+    <!-- Header Starts Here -->
+    <header class="header">
+        <div class="sound">
+            <audio id="audio">
+                <source src="./Nature Sound.mp3">
+            </audio>
+            <i class="fa-solid fa-music music"></i>
+            <span>Sound</span>
+            <div class="on-off">
+                <span id="off">OFF</span>
+                <span id="on">ON</span>
+            </div>
+        </div>
+        <div class="buttons-container">
+            <i class="fas fa-bars bars"></i>
+            <i class="fas fa-times times"></i>
+        </div>
+    </header>
+    <!-- Header Ends Here -->
+
+    <!-- Sidebar Starts Here -->
+
+    <aside class="sidebar">
+        <div class="sidebar-collapse">
+            <div class="logo-container">
+                <a href="#" rel="home" class="logo"><img src="./Images/R_logo.png" alt="logo"><span>Rishi</span></a>
+                <span>Web Developer</span>
+            </div>
+            <nav class="links">
+                <a href="index.html" onclick="menuToggle('close')">About</a>
+                <a href="#" onclick="menuToggle('close')">Portfolio</a>
+                <a href="#" onclick="menuToggle('close')">Skill</a>
+                <a href="#" onclick="menuToggle('close')">Contact Me</a>
+            </nav>
+            <!-- Social Media -->
+            <ul class="social-icons">
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href=""><i class="fab fa-github"></i></a></li>
+                <li><a href=""><i class="fas fa-rss"></i></a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <span>Copyright &#169;</span>
+            <p>All Right Reserved</p>
+            <p id="year"></p>
+        </div>
+    </aside>
+    <!-- Sidebar Ends Here -->
+
+    <!-- Home Section Starts Here -->
+
+    <section class="home__section">
+        <div class="home-text">
+            <h1>Hi, <br> I'm <img src="./Images/R_logo.png"><span id="rishikesh">ishikesh</span>, <br> web developer
+            </h1>
+            <p class="full-stack">Full Stack and Application Developer</p>
+
+            <a href="#" class="home-contact-button">
+                <div>
+                    <span class="bg"></span>
+                    <span class="base"></span>
+                    <span class="text">
+                        Contact Me !
+                    </span>
+                </div>
+            </a>
+        </div>
+        <div class="scroll-down1">
+            <span>Scroll down</span>
+            <i class="fa-solid fa-arrow-down"></i>
+        </div>
+
+        <div class="scroll-down2">
+            <span>Scroll down</span>
+            <i class="fa-solid fa-arrow-down"></i>
+        </div>
+    </section>
+    <!-- Home Section Ends Here -->
+
+    <!-- Work Section Starts Here -->
+
+    <section id="work-section">
+        <div class="work-header">
+            <h2>My Portfolio</h2>
+        </div>
+        <div class="work-text">
+            <div>
+                <p>A small galerry of recent projects choose by me.
+                    I've completed them alone using lots of framework, css, javaScript and many more.
+                    This is only a droplet in the ocean, I hope I satisfy you with my work.
+                    <br>
+                    intrested to see some more ? visit <a href="https://github.com/rishi191800" target="_blank">my
+                        work</a> page.
+                </p>
+            </div>
+            <!-- <a href="#" class="home-contact-button">
+                <div>
+                    <span class="bg"></span>
+                    <span class="base"></span>
+                    <span class="text">
+                        See More !
+                    </span>
+                </div>
+            </a> -->
+        </div>
+    </section>
+
+    <!-- Work Section End Here -->
+
+    <!-- Project Section Starts Here -->
+    <section class="project-section">
+        <div id="project__item-heading" class="project__item-heading">
+            <ul>
+                <li>
+                    <div class="project__section-item lazyload">
+                        <img src="./Images/sara_car.jpg" alt="Car">
+                        <div class="hover-content"></div>
+                        <a href="https://rishi191800.github.io/carwebsite" class="circle" target="_blank"></a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="project__section-item lazyload">
+                        <img src="./Images/sara_gym.jpg" alt="Gym">
+                        <div class="hover-content"></div>
+                        <a href="https://rishi191800.github.io/saragym" class="circle" target="_blank"></a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="project__section-item lazyload">
+                        <img src="./Images/Rishi_Portfolio.jpg" alt="Portfolio">
+                        <div class="hover-content"></div>
+                        <a href="https://rishi191800.github.io/personalportfolio" class="circle" target="_blank"></a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="project__section-item lazyload">
+                        <img src="./Images/comming_soon.jpg" alt="Portfolio">
+                        <div class="hover-content"></div>
+                        <a href="https://github.com/rishi191800" id="comming_soon" target="_blank"></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Project Seciton Ends Here -->
+
+    <!-- About Section Starts Here -->
+
+    <section class="about-section" id="wowork-section">
+        <div class="about-header">
+            <div class="work-header">
+                <h2>I, Me and Myself</h2>
+            </div>
+            <p>I have been working on Adobe Photoshop, Adobe PageMaker, Microsoft Office, Hin-Eng Typing since 2012 and
+                many more are given in knowledge section. I hope, I might satisfy you with my project that are given in
+                portfolio section.</p>
+            <p>If I got the chance to serve you, I sure, I'll live up to your expectations</p>
+            <p>Currenly, I work with selected freelance client to base being open for new opportunities.</p>
+        </div>
+        <div class="knowledge-chart">
+            <div class="canvas-container">
+                <canvas width="350" height="400" id="canvas">
+                    <ul id="move">
+                        <li><a>HTML</a></li>
+                        <li><a>CSS</a></li>
+                        <li><a>JavaScript</a></li>
+                        <li><a>React</a></li>
+                        <li><a>PHP</a></li>
+                        <li><a>C#</a></li>
+                        <li><a>Android Development</a></li>
+                        <li><a>Web Development</a></li>
+                        <li><a>Next JS</a></li>
+                        <li><a>Wordpress</a></li>
+                        <li><a>Python</a></li>
+                        <li><a>JQuery</a></li>
+                        <li><a>TypeScript</a></li>
+                        <li><a>Graphic Designing</a></li>
+                    </ul>
+                </canvas>
+            </div>
+        </div>
+    </section>
+    <!-- About Section Ends here -->
+
+    <!-- Contact Me Section Starts here -->
+
+    <section class="contact__me-section contact-wrapper">
+        <form class="contact-form">
+            <div class="contact-heading">
+                <div class="work-header">
+                    <h1>Contact Me</h1>
+                </div>
+                <p>I'm intrested in freelancing opportunities for large projects. If you have other request or question
+                    to ask don't hesitate to use the form</p>
+            </div>
+            <div class="form-input-wrapper">
+                <div class="form-input-group error">
+                    <input type="text" placeholder="Name" name="name" class="name" />
+                    <span></span>
+                </div>
+                <div class="form-input-group error">
+                    <input type="email" name="email" placeholder="Email" class="email" />
+                    <span></span>
+                </div>
+            </div>
+            <div class="form-input-group">
+                <input type="text" placeholder="Subject" class="subject" name="subject" />
+                <span></span>
+            </div>
+            <div class="form-input-group error">
+                <textarea type="text" placeholder="Message" class="textarea" name="message"></textarea>
+                <span></span>
+            </div>
+            <div class="message"></div>
+            <button type="submit" class="home-contact-button submit-button">
+                <div>
+                    <span class="bg"></span>
+                    <span class="base"></span>
+                    <span class="text">
+                        Send Message
+                    </span>
+                </div>
+            </button>
+        </form>
+        <div class="google-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.3816561309623!2d85.91191761461285!3d25.392032230000176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f26d3f685abc55%3A0x4d0e5a6b7d3a9773!2sMokameh%20Junction!5e0!3m2!1sen!2sin!4v1674102590744!5m2!1sen!2sin"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map-content">
+                <p>Rishikesh Kumar</p>
+                <span>
+                    India, Bihar
+                    <br />
+                    Patna, Mokameh
+                </span>
+                <br />
+                <span>@: rishi191800@gmail.com</span>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script src="https://kit.fontawesome.com/313510c170.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+    crossorigin="anonymous"></script>
+<script src="./JS/jQueryCanvas.js"></script>
+<script src="./JS/main.js"></script>
+
+</html>
